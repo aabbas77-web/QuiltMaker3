@@ -5,8 +5,5 @@
 ## I am trying to revive the programs I developed throughout my long career
 ## This Program since 14/12/2005
 
-**Create and Edit Quilt Desgin**
-[![Quilt Maker3](https://github.com/aabbas77-web/QuiltMaker/releases/download/FirstRelease/QuiltMakerVideo.png)](https://www.youtube.com/watch?v=L0E2dlaJqDQ)<br/>
-
-
-![image alt](https://github.com/aabbas77-web/QuiltMaker/releases/download/FirstRelease/QuiltMaker.png)<br/>
+**Create and Edit and Simulate Quilt Desgin**
+[![Quilt Maker3](https://github.com/aabbas77-web/QuiltMaker3/releases/download/FirstRelease/QuiltMaker3Video.png)](https://www.youtube.com/watch?v=abYpQkqdMtY)<br/>

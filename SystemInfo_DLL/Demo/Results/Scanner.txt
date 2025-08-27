@@ -1,0 +1,20 @@
+Bios Copyright:              D815EA - 20000921
+Bios Date:                   09/21/00
+Bios Extended Info:          
+Bios Name:                   AT/AT COMPATIBLE
+CPU Serial Number:           0000-068A-0383-F9FF-0000-0000
+CPU Vendor:                  Intel Corporation
+CPU Code Name:               Coppermine (0.18 µm)
+CPU Friendly Name:           Celeron
+SMBIOS Date:                 09/21/2000
+SMBIOS Vendor:               Intel Corp.
+SMBIOS Version:              EA81510A.86A.0031.P07.0009211842
+MainBoard Vendor:            Intel Corporation
+MainBoard Model:             D815EEA
+MainBoard Serial:            IUEA11006375
+MainBoard Version:           AAA10378-405
+Display Adapter:           S3 Graphics Inc. Savage4
+Display Chipset:           S3 Savage4
+Display BIOS Date:           02/18/00
+Display BIOS Version:           S3 86C395/396/397 Video BIOS. Version 2.0
+Display BIOS String:           02.1D.18

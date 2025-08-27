@@ -1,0 +1,168 @@
+library SystemInfo;
+
+{ Important note about DLL memory management: ShareMem must be the
+  first unit in your library's USES clause AND your project's (select
+  Project-View Source) USES clause if your DLL exports any procedures or
+  functions that pass strings as parameters or function results. This
+  applies to all strings passed to and from your DLL--even those that
+  are nested in records and classes. ShareMem is the interface unit to
+  the BORLNDMM.DLL shared memory manager, which must be deployed along
+  with your DLL. To avoid using BORLNDMM.DLL, pass string information
+  using PChar or ShortString parameters. }
+
+uses
+  SysUtils,
+  Classes,
+  MSI_GUI;
+
+{$R *.RES}
+var
+	MSystemInfo:TMSystemInfo;
+//------------------------------------------------------------------------------  
+procedure info_Initialize();
+begin
+	MSystemInfo := TMSystemInfo.Create(nil);
+end;
+//------------------------------------------------------------------------------  
+procedure info_Finalize();
+begin
+	MSystemInfo.Free();
+end;
+//------------------------------------------------------------------------------  
+procedure info_Refresh();
+begin
+	MSystemInfo.Refresh();
+end;
+//------------------------------------------------------------------------------  
+function info_Bios_Copyright():PChar;
+begin
+	Result := PChar(MSystemInfo.Machine.BIOS.Copyright);
+end;
+//------------------------------------------------------------------------------  
+function info_Bios_Date():PChar;
+begin
+	Result := PChar(MSystemInfo.Machine.BIOS.Date);
+end;
+//------------------------------------------------------------------------------  
+function info_Bios_ExtendedInfo():PChar;
+begin
+	Result := PChar(MSystemInfo.Machine.BIOS.ExtendedInfo);
+end;
+//------------------------------------------------------------------------------  
+function info_Bios_Name():PChar;
+begin
+	Result := PChar(MSystemInfo.Machine.BIOS.Name);
+end;
+//------------------------------------------------------------------------------
+function info_CPU_SN():PChar;
+begin
+	Result := PChar(MSystemInfo.CPU.SerialNumber);
+end;
+//------------------------------------------------------------------------------
+function info_CPU_Vendor():PChar;
+begin
+	Result := PChar(MSystemInfo.CPU.Vendor);
+end;
+//------------------------------------------------------------------------------
+function info_CPU_CodeName():PChar;
+begin
+	Result := PChar(MSystemInfo.CPU.CodeName);
+end;
+//------------------------------------------------------------------------------
+function info_CPU_FriendlyName():PChar;
+begin
+	Result := PChar(MSystemInfo.CPU.FriendlyName);
+end;
+//------------------------------------------------------------------------------
+function info_SMBIOS_Date():PChar;
+begin
+	Result := PChar(MSystemInfo.Machine.SMBIOS.BIOSDate);
+end;
+//------------------------------------------------------------------------------
+function info_SMBIOS_Vendor():PChar;
+begin
+	Result := PChar(MSystemInfo.Machine.SMBIOS.BIOSVendor);
+end;
+//------------------------------------------------------------------------------
+function info_SMBIOS_Version():PChar;
+begin
+	Result := PChar(MSystemInfo.Machine.SMBIOS.BIOSVersion);
+end;
+//------------------------------------------------------------------------------
+function info_MainBoard_Vendor():PChar;
+begin
+	Result := PChar(MSystemInfo.Machine.SMBIOS.MainBoardManufacturer);
+end;
+//------------------------------------------------------------------------------
+function info_MainBoard_Model():PChar;
+begin
+	Result := PChar(MSystemInfo.Machine.SMBIOS.MainBoardModel);
+end;
+//------------------------------------------------------------------------------
+function info_MainBoard_Serial():PChar;
+begin
+	Result := PChar(MSystemInfo.Machine.SMBIOS.MainBoardSerial);
+end;
+//------------------------------------------------------------------------------
+function info_MainBoard_Version():PChar;
+begin
+	Result := PChar(MSystemInfo.Machine.SMBIOS.MainBoardVersion);
+end;
+//------------------------------------------------------------------------------
+function info_Display_Adapter():PChar;
+begin
+	Result := PChar(MSystemInfo.Display.Adapter);
+end;
+//------------------------------------------------------------------------------
+function info_Display_BIOSDate():PChar;
+begin
+	Result := PChar(MSystemInfo.Display.BIOSDate);
+end;
+//------------------------------------------------------------------------------
+function info_Display_BIOSVersion():PChar;
+begin
+	Result := PChar(MSystemInfo.Display.BIOSVersion);
+end;
+//------------------------------------------------------------------------------
+function info_Display_BIOSString():PChar;
+begin
+	Result := PChar(MSystemInfo.Display.BIOSString);
+end;
+//------------------------------------------------------------------------------
+function info_Display_Chipset():PChar;
+begin
+	Result := PChar(MSystemInfo.Display.Chipset);
+end;
+//------------------------------------------------------------------------------
+exports
+	info_Initialize,
+  info_Finalize,
+	info_Refresh,
+
+  info_Bios_Copyright,
+  info_Bios_Date,
+  info_Bios_ExtendedInfo,
+  info_Bios_Name,
+
+  info_CPU_SN,
+  info_CPU_Vendor,
+  info_CPU_CodeName,
+  info_CPU_FriendlyName,
+
+  info_SMBIOS_Date,
+  info_SMBIOS_Vendor,
+  info_SMBIOS_Version,
+
+  info_MainBoard_Vendor,
+  info_MainBoard_Model,
+  info_MainBoard_Serial,
+  info_MainBoard_Version,
+  
+  info_Display_Adapter,
+  info_Display_BIOSDate,
+  info_Display_BIOSVersion,
+  info_Display_BIOSString,
+  info_Display_Chipset;
+//------------------------------------------------------------------------------
+begin
+end.

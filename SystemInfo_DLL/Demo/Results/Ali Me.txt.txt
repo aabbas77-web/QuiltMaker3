@@ -1,0 +1,20 @@
+Bios Copyright:              Copyright (C) 1984-98, Award Software, Inc.
+Bios Date:                   03/02/01
+Bios Extended Info:          03/02/2001-i850-<<P4T>>-00
+Bios Name:                   Award Modular BIOS v6.0
+CPU Serial Number:           0000-0F07-3FEB-F9FF-0000-0000
+CPU Vendor:                  Intel Corporation
+CPU Code Name:               Willamette (0.18 µm)
+CPU Friendly Name:           Pentium 4
+SMBIOS Date:                 03/02/2001
+SMBIOS Vendor:               Award Software, Inc.
+SMBIOS Version:              ASUS P4T ACPI BIOS Revision 1004
+MainBoard Vendor:            ASUSTeK Computer INC.
+MainBoard Model:             <<P4T>>
+MainBoard Serial:            MB-1234567890
+MainBoard Version:           REV 1.xx
+Display Adapter:           All-In-Wonder 128 Pro Ultra AGP  
+Display Chipset:           
+Display BIOS Date:           
+Display BIOS Version:           
+Display BIOS String:           

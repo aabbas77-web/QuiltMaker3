@@ -1,0 +1,20 @@
+Bios Copyright:              Copyright (C) 1984-99, Award Software, Inc.
+Bios Date:                   11/19/99
+Bios Extended Info:          11/19/1999-i440BX-W977EF-2A69KF2FC-00
+Bios Name:                   Award Modular BIOS v4.51PG
+CPU Serial Number:           0000-0673-0387-FBFF-0000-0000
+CPU Vendor:                  Intel Corporation
+CPU Code Name:               Katmai (0.25 µm)
+CPU Friendly Name:           Pentium III
+SMBIOS Date:                 11/19/99
+SMBIOS Vendor:               Award Software International, Inc.
+SMBIOS Version:              4.51 PG
+MainBoard Vendor:            
+MainBoard Model:             i440BX-W977EF
+MainBoard Serial:            
+MainBoard Version:           
+Display Adapter:           S3 Inc. Savage4  (8.02.05)
+Display Chipset:           
+Display BIOS Date:           
+Display BIOS Version:           
+Display BIOS String:           

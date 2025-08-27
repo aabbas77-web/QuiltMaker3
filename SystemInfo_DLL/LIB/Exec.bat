@@ -1,0 +1,1 @@
+implib.exe wintrust.lib wintrust.dll > res.txt

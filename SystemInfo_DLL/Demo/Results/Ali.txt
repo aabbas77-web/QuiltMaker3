@@ -1,0 +1,20 @@
+Bios Copyright:              ASUS   - 30303031 Award Medallion BIOS v6.0 Award Plug and Play BIOS Extension v1.0A Award Modular BIOS v6.0
+Bios Date:                   03/02/01
+Bios Extended Info:          
+Bios Name:                   AT/AT COMPATIBLE
+CPU Serial Number:           0000-0F07-3FEB-F9FF-0000-0000
+CPU Vendor:                  Intel Corporation
+CPU Code Name:               Willamette (0.18 µm)
+CPU Friendly Name:           Pentium 4
+SMBIOS Date:                 03/02/2001
+SMBIOS Vendor:               Award Software, Inc.
+SMBIOS Version:              ASUS P4T ACPI BIOS Revision 1004
+MainBoard Vendor:            ASUSTeK Computer INC.
+MainBoard Model:             <<P4T>>
+MainBoard Serial:            MB-1234567890
+MainBoard Version:           REV 1.xx
+Display Adapter:           All-In-Wonder 128 Pro Ultra  AGP
+Display Chipset:           RAGE128 PRO II, (AGP 4X/PCI)
+Display BIOS Date:           00/11/17
+Display BIOS Version:           
+Display BIOS String:           BK3.0.2 VR001.001.003.002.002.026 tfs__4x1.

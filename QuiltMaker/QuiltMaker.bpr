@@ -32,15 +32,14 @@
     <USERDEFINES value="_DEBUG"/>
     <SYSDEFINES value="NO_STRICT"/>
     <MAINSOURCE value="QuiltMaker.cpp"/>
-    <INCLUDEPATH value="L:\SystemInfo_DLL\Demo\;&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo;L:\CNC\TFormTranslation\;&quot;L:\Copy Protection\AliSoft\Protection\&quot;"/>
+    <INCLUDEPATH value="L:\SystemInfo_DLL\Demo\;&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;..\Protection;$(BCB)\include;$(BCB)\include\vcl;..\TFormTranslation;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo;L:\CNC\TFormTranslation\;&quot;L:\Copy Protection\AliSoft\Protection\&quot;"/>
     <LIBPATH value="..\SystemInfo_DLL\Demo;L:\SystemInfo_DLL\Demo\;&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;..\ProtectionLib\Protection;L:\Halftone\Halftone\TFormTranslation\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
     <WARNINGS value="-w-par"/>
   </MACROS>
   <OPTIONS>
     <IDLCFLAGS value="-IL:\SystemInfo_DLL\Demo\. 
-      -I&quot;C:\Program Files\Borland\CBuilder5\Projects\.&quot; 
-      -I..\ProtectionLib\Protection -I$(BCB)\include -I$(BCB)\include\vcl 
-      -IE:\Halftone\Halftone\TFormTranslation\. 
+      -I&quot;C:\Program Files\Borland\CBuilder5\Projects\.&quot; -I..\Protection 
+      -I$(BCB)\include -I$(BCB)\include\vcl -I..\TFormTranslation 
       -IL:\Halftone\Halftone\TFormTranslation\. -I..\SystemInfo_DLL\Demo 
       -IL:\CNC\TFormTranslation\. -I&quot;L:\Copy Protection\AliSoft\Protection\.&quot; 
       -src_suffix cpp -D_DEBUG -boa"/>
@@ -90,28 +89,30 @@ Address=Syria - Damascus - Barzeh
 Compatibility=Win9x,WinMe,WinNTx,Win2000,WinXP Compatible
 
 [HistoryLists\hlIncludePath]
-Count=21
-Item0=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo;L:\CNC\TFormTranslation\;L:\Copy Protection\AliSoft\Protection\
-Item1=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo;L:\CNC\TFormTranslation\;L:\Copy Protection\AliSoft\Protection
-Item2=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo;L:\CNC\TFormTranslation\
-Item3=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo;L:\CNC\TFormTranslation
-Item4=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo
-Item5=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;L:\QuiltMaker3\SystemInfo_DLL\Demo
-Item6=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\
-Item7=L:\SystemInfo_DLL\Demo;C:\Program Files\Borland\CBuilder5\Projects\;..\..\..\SystemInfo_DLL\Demo;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;..\..\..\Halftone\Halftone\TFormTranslation
-Item8=C:\Program Files\Borland\CBuilder5\Projects\;..\..\..\SystemInfo_DLL\Demo;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;..\..\..\Halftone\Halftone\TFormTranslation
-Item9=C:\Program Files\Borland\CBuilder5\Projects;..\..\..\SystemInfo_DLL\Demo;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;..\..\..\Halftone\Halftone\TFormTranslation
-Item10=..\..\..\SystemInfo_DLL\Demo;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;..\..\..\Halftone\Halftone\TFormTranslation
-Item11=$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;..\..\..\Halftone\Halftone\TFormTranslation
-Item12=O:\Copy Protection\AliSoft\Protection\;..\ProtectionLib\Protection;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;..\..\..\Halftone\Halftone\TFormTranslation
-Item13=O:\Copy Protection\AliSoft\Protection\;..\ProtectionLib\Protection;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;F:\Ali\Digitizer\Halftone\Halftone\TFormTranslation
-Item14=O:\Copy Protection\AliSoft\Protection\;..\ProtectionLib\Protection;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\
-Item15=O:\Copy Protection\AliSoft\Protection;..\ProtectionLib\Protection;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\
-Item16=..\ProtectionLib\Protection;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation
-Item17=..\ProtectionLib\Protection;..\..\..\Halftone\Halftone\TFormTranslation;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
-Item18=C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
-Item19=C:\Program Files\Borland\CBuilder5\Projects;$(BCB)\include;$(BCB)\include\vcl
-Item20=$(BCB)\include;$(BCB)\include\vcl
+Count=23
+Item0=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\Protection;$(BCB)\include;$(BCB)\include\vcl;..\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo;L:\CNC\TFormTranslation\;L:\Copy Protection\AliSoft\Protection\
+Item1=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo;L:\CNC\TFormTranslation\;L:\Copy Protection\AliSoft\Protection\
+Item2=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo;L:\CNC\TFormTranslation\;L:\Copy Protection\AliSoft\Protection\
+Item3=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo;L:\CNC\TFormTranslation\;L:\Copy Protection\AliSoft\Protection
+Item4=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo;L:\CNC\TFormTranslation\
+Item5=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo;L:\CNC\TFormTranslation
+Item6=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;..\SystemInfo_DLL\Demo
+Item7=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\;L:\QuiltMaker3\SystemInfo_DLL\Demo
+Item8=L:\SystemInfo_DLL\Demo\;C:\Program Files\Borland\CBuilder5\Projects\;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;L:\Halftone\Halftone\TFormTranslation\
+Item9=L:\SystemInfo_DLL\Demo;C:\Program Files\Borland\CBuilder5\Projects\;..\..\..\SystemInfo_DLL\Demo;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;..\..\..\Halftone\Halftone\TFormTranslation
+Item10=C:\Program Files\Borland\CBuilder5\Projects\;..\..\..\SystemInfo_DLL\Demo;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;..\..\..\Halftone\Halftone\TFormTranslation
+Item11=C:\Program Files\Borland\CBuilder5\Projects;..\..\..\SystemInfo_DLL\Demo;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;..\..\..\Halftone\Halftone\TFormTranslation
+Item12=..\..\..\SystemInfo_DLL\Demo;..\ProtectionLib\Protection;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;..\..\..\Halftone\Halftone\TFormTranslation
+Item13=$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;..\..\..\Halftone\Halftone\TFormTranslation
+Item14=O:\Copy Protection\AliSoft\Protection\;..\ProtectionLib\Protection;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;..\..\..\Halftone\Halftone\TFormTranslation
+Item15=O:\Copy Protection\AliSoft\Protection\;..\ProtectionLib\Protection;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\;F:\Ali\Digitizer\Halftone\Halftone\TFormTranslation
+Item16=O:\Copy Protection\AliSoft\Protection\;..\ProtectionLib\Protection;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\
+Item17=O:\Copy Protection\AliSoft\Protection;..\ProtectionLib\Protection;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation\
+Item18=..\ProtectionLib\Protection;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;E:\Halftone\Halftone\TFormTranslation
+Item19=..\ProtectionLib\Protection;..\..\..\Halftone\Halftone\TFormTranslation;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item20=C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item21=C:\Program Files\Borland\CBuilder5\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item22=$(BCB)\include;$(BCB)\include\vcl
 
 [HistoryLists\hlLibraryPath]
 Count=13

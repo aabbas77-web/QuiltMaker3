@@ -1,6 +1,6 @@
 object FormMain: TFormMain
-  Left = 0
-  Top = 105
+  Left = 178
+  Top = 118
   Width = 800
   Height = 375
   Caption = 'QuiltMaker V3.0'
@@ -20,10 +20,10 @@ object FormMain: TFormMain
   PixelsPerInch = 96
   TextHeight = 13
   object Splitter1: TSplitter
-    Left = 689
+    Left = 681
     Top = 56
     Width = 3
-    Height = 254
+    Height = 241
     Cursor = crHSplit
     Align = alRight
     Color = clNavy
@@ -32,8 +32,8 @@ object FormMain: TFormMain
   object PanelDisplay: TPanel
     Left = 100
     Top = 56
-    Width = 589
-    Height = 254
+    Width = 581
+    Height = 241
     Align = alClient
     BevelInner = bvLowered
     Caption = 'Only Original Version Can Save Correctly!!!'
@@ -50,7 +50,7 @@ object FormMain: TFormMain
   object ControlBar1: TControlBar
     Left = 0
     Top = 0
-    Width = 792
+    Width = 784
     Height = 56
     Align = alTop
     AutoSize = True
@@ -435,8 +435,8 @@ object FormMain: TFormMain
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 310
-    Width = 792
+    Top = 297
+    Width = 784
     Height = 19
     AutoHint = True
     Panels = <>
@@ -446,7 +446,7 @@ object FormMain: TFormMain
     Left = 0
     Top = 56
     Width = 100
-    Height = 254
+    Height = 241
     Align = alLeft
     BevelInner = bvLowered
     TabOrder = 3
@@ -454,7 +454,7 @@ object FormMain: TFormMain
       Left = 2
       Top = 2
       Width = 96
-      Height = 145
+      Height = 132
       Align = alClient
       Caption = 'File Explorer'
       Color = 14671839
@@ -464,7 +464,7 @@ object FormMain: TFormMain
         Left = 1
         Top = 14
         Width = 94
-        Height = 130
+        Height = 117
         Align = alClient
         ItemHeight = 13
         PopupMenu = PopupMenuFileList
@@ -475,7 +475,7 @@ object FormMain: TFormMain
     end
     object GroupBoxLayersManager: TGroupBox
       Left = 2
-      Top = 147
+      Top = 134
       Width = 96
       Height = 105
       Align = alBottom
@@ -497,10 +497,10 @@ object FormMain: TFormMain
     end
   end
   object GroupBoxEntities: TGroupBox
-    Left = 692
+    Left = 684
     Top = 56
     Width = 100
-    Height = 254
+    Height = 241
     Align = alRight
     Caption = 'Entities'
     TabOrder = 4
@@ -508,7 +508,7 @@ object FormMain: TFormMain
       Left = 1
       Top = 44
       Width = 98
-      Height = 185
+      Height = 172
       Align = alClient
       ItemHeight = 13
       TabOrder = 0
@@ -517,7 +517,7 @@ object FormMain: TFormMain
     end
     object Panel2: TPanel
       Left = 1
-      Top = 229
+      Top = 216
       Width = 98
       Height = 24
       Align = alBottom

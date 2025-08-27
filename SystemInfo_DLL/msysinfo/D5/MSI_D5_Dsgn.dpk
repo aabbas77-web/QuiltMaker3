@@ -1,6 +1,7 @@
 package MSI_D5_Dsgn;
 
-{$R *.RES}
+{$R *.res}
+{$ALIGN 8}
 {$ASSERTIONS ON}
 {$BOOLEVAL OFF}
 {$DEBUGINFO ON}
@@ -26,7 +27,7 @@ package MSI_D5_Dsgn;
 {$IMPLICITBUILD OFF}
 
 requires
-  vcl50,
+  vcl,
   MSI_D5_Rtl;
 
 contains

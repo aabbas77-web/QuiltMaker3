@@ -12,8 +12,8 @@ library SystemInfo;
 
 uses
   SysUtils,
-  Classes,
-  MSI_GUI;
+  Classes{,
+  MSI_GUI};
 
 {$R *.RES}
 var
